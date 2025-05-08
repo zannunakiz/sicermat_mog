@@ -1,7 +1,6 @@
-"use client"
+
 
 import { useState } from "react"
-import { GrConfigure } from "react-icons/gr"
 
 const Device = () => {
    // State for devices list
@@ -59,7 +58,7 @@ const Device = () => {
       <div className="  p-6">
          <div className="max-w-4xl mx-auto">
             <header className="mb-8">
-               <h1 className="text-3xl font-bold text-gray-100 flex items-center gap-3"><GrConfigure />Device Manager</h1>
+               <h1 className="text-3xl font-bold text-gray-100 flex items-center gap-3">⚙️ Device Manager</h1>
                <p className="text-gray-400 mt-2">Select a device to configure its network settings</p>
             </header>
 
